@@ -1,9 +1,10 @@
 # FrontEnd Mentor Challenge Week 5 Assignment: FAQ Accordion
 
-## Challenge requirements
+## Challenge requirements on [Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz)
+
 The goal is to build an accessible, responsive FAQ accordion component using HTML, CSS, and JavaScript.
 
-Users should be able to:
+### Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 - Navigate the questions and hide/show answers using keyboard navigation alone
 - View the optimal layout for the interface depending on their device's screen size
