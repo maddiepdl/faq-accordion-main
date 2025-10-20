@@ -6,8 +6,8 @@ The goal is to build an accessible, responsive FAQ accordion component using HTM
 
 ### Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
-- Navigate the questions and hide/show answers using keyboard navigation alone
 - View the optimal layout for the interface depending on their device's screen size
+- Navigate the questions and hide/show answers using keyboard navigation
 - See hover and focus states for all interactive elements on the page
 
 ## In my process, I used: 
@@ -28,6 +28,6 @@ Resources I used:
   - [W3Schools – @font-face](https://www.w3schools.com/cssref/atrule_font-face.php)  
   - [MDN – @font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)  
 - For media query syntax: [W3Schools – CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)  
-- For accordion functionality: [W3Schools – How To Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)  
 - For smooth expand/collapse animation: [W3Schools – CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
+- For accordion functionality: [W3Schools – How To Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)  
 - Week 3–5 JavaScript resources: [Codex Academy Moodle](https://codexacademy.moodlecloud.com/mod/folder/view.php?id=3258) 
