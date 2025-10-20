@@ -22,10 +22,12 @@ The goal is to build an accessible, responsive FAQ accordion component using HTM
 - [`script.js`](./script.js) 
 - [`README-template.md`](./README-template.md)
 
-## Resources I used:
+Resources I used:
 - Mr. Ulises's guided exercise for the Mortgage Calculator Challenge in Week 4 Zoom classes  
-- For media query syntax: [W3Schools – CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)  
 - For syntax for loading local custom font from assets and making sure to use accurate files:  
   - [W3Schools – @font-face](https://www.w3schools.com/cssref/atrule_font-face.php)  
   - [MDN – @font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face)  
+- For media query syntax: [W3Schools – CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)  
+- For accordion functionality: [W3Schools – How To Accordion](https://www.w3schools.com/howto/howto_js_accordion.asp)  
+- For smooth expand/collapse animation: [W3Schools – CSS Transitions](https://www.w3schools.com/css/css3_transitions.asp)
 - Week 3–5 JavaScript resources: [Codex Academy Moodle](https://codexacademy.moodlecloud.com/mod/folder/view.php?id=3258) 
