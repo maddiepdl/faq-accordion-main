@@ -1,0 +1,50 @@
+/* styleguide colors */
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  background-color: hsl(275, 100%, 97%);
+  color: hsl(292, 42%, 14%);
+  margin: 0;
+  padding: 1.5rem;
+}
+
+/* main section with FAQs */
+.faq-container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.faq-title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.faq {
+  border-bottom: 1px solid hsl(292, 16%, 49%);
+  padding: 0.75rem 0;
+}
+
+/* question button */
+.faq-question {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  color: hsl(292, 42%, 14%);
+}
+
+/* focus glow style for navigation */
+.faq-question:focus {
+  box-shadow: 0 0 0 3px hsl(292, 16%, 49%);
+  border-radius: 4px;
+}
+
+.faq-answer {
+  margin-top: 0.5rem;
+  color: hsl(292, 16%, 49%);
+}
