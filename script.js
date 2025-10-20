@@ -6,16 +6,18 @@ questions.forEach(button => {
   button.addEventListener('click', () => {
     const expanded = button.getAttribute('aria-expanded') === 'true';
 
-    // close answers and reset aria
+    // close answers
     questions.forEach(btn => {
       btn.setAttribute('aria-expanded', 'false');
-      document.getElementById(btn.getAttribute('aria-controls')).hidden = true;
+      const answer = document.getElementById(btn.getAttribute('aria-controls'));
+      answer.classList.remove('visible'); 
     });
 
-    // expand clicked one to show answer and update aria
+    // expand to show answer now with visible class
     if (!expanded) {
       button.setAttribute('aria-expanded', 'true');
-      document.getElementById(button.getAttribute('aria-controls')).hidden = false;
+      const answer = document.getElementById(button.getAttribute('aria-controls'));
+      answer.classList.add('visible');
     }
   });
-})
+});

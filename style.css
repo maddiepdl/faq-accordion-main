@@ -128,11 +128,20 @@ body {
   background-image: url('./assets/images/icon-minus.svg');
 }
 
+/* smooth transition for FAQ answers */
 .faq-answer {
-  padding-bottom: 1rem;
+  max-height: 0; /* collapsed */
+  overflow: hidden;
+  transition: max-height 0.4s ease;
   color: var(--clr-purple-600);
   font-size: 0.95rem;
   line-height: 1.6;
+}
+
+/* expanded answer with .visible */
+.faq-answer.visible {
+  max-height: 500px; /* 500 fits my content */
+  padding-bottom: 1rem;
 }
 
 /* footer */
